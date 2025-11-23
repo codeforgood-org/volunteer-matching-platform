@@ -50,6 +50,7 @@ defmodule VolunteerMatch.MixProject do
       {:guardian, "~> 2.3"},
       {:guardian_phoenix, "~> 2.0"},
       {:guardian_db, "~> 2.1"},
+      {:nimble_totp, "~> 1.0"},
 
       # API
       {:cors_plug, "~> 3.0"},
@@ -72,6 +73,7 @@ defmodule VolunteerMatch.MixProject do
       {:geo, "~> 3.5"},
       {:geocalc, "~> 0.8"},
       {:quantum, "~> 3.5"},
+      {:httpoison, "~> 2.0"},
       {:ex_machina, "~> 2.7", only: :test},
       {:faker, "~> 0.17", only: [:test, :dev]},
 

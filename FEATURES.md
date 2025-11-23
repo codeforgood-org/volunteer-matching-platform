@@ -321,29 +321,106 @@
 - ✅ **CDN** Support for Static Assets
 - ✅ **Gzip Compression**
 
+## 🎉 Advanced Features (Phase 2)
+
+### Two-Factor Authentication (2FA)
+- ✅ **TOTP-Based 2FA** with QR Code Generation
+- ✅ **Backup Codes** System
+- ✅ **Enable/Disable 2FA** Flow
+- ✅ **2FA Verification** during Login
+- ✅ **Regenerate Backup Codes**
+- ✅ **NimbleTOTP** Integration
+
+### Advanced Full-Text Search
+- ✅ **PostgreSQL pg_trgm** Extension
+- ✅ **Trigram Similarity** Matching
+- ✅ **Full-Text Search** with to_tsvector
+- ✅ **Search Opportunities** with Relevance Ranking
+- ✅ **Search NGOs** by Name and Mission
+- ✅ **Search Volunteers** by Skills and Causes
+- ✅ **Global Search** Across All Entities
+- ✅ **Search Suggestions** with Autocomplete
+- ✅ **Configurable Similarity** Thresholds
+- ✅ **GIN Indexes** for Performance
+
+### Team/Group Volunteering
+- ✅ **Create Teams** with Leaders
+- ✅ **Team Members** Management
+- ✅ **Invite Members** to Teams
+- ✅ **Accept/Decline** Team Invitations
+- ✅ **Team Roles** (Leader, Co-Leader, Member)
+- ✅ **Team Applications** to Opportunities
+- ✅ **Team Statistics** and Analytics
+- ✅ **Public/Private** Teams
+- ✅ **Team Types** (Volunteer, Corporate, Student, Family)
+- ✅ **Max Members** Limits
+
+### Event Management System
+- ✅ **Create Events** (Fundraisers, Workshops, Meetings, etc.)
+- ✅ **Virtual Events** with Meeting Links
+- ✅ **Physical Events** with Geolocation
+- ✅ **Event Registration** System
+- ✅ **Waitlist** Management
+- ✅ **Attendance Tracking**
+- ✅ **Event Capacity** Limits
+- ✅ **Registration Deadlines**
+- ✅ **Event Types** (8+ Categories)
+- ✅ **Event Search** by Location and Type
+- ✅ **NGO Event** Management
+- ✅ **User Event** Calendar
+
+### Webhook System
+- ✅ **Create Webhooks** for Integrations
+- ✅ **Webhook Events** (10+ Event Types)
+- ✅ **HMAC Signature** Verification
+- ✅ **Automatic Retries** with Exponential Backoff
+- ✅ **Webhook Deliveries** Tracking
+- ✅ **Delivery Statistics** and Analytics
+- ✅ **Webhook Secrets** Management
+- ✅ **Failed Delivery** Handling
+- ✅ **Async Delivery** with Oban
+- ✅ **Event Filtering** per Webhook
+
+### Certificate Generation
+- ✅ **Single Opportunity** Certificates
+- ✅ **Summary Certificates** for All Work
+- ✅ **Beautiful HTML** Templates
+- ✅ **Certificate IDs** for Verification
+- ✅ **Organization Branding**
+- ✅ **Hours Tracking** on Certificates
+- ✅ **Professional Design** with CSS
+- ✅ **PDF Export** Ready (ChromicPDF)
+
+### Calendar Integration
+- ✅ **iCal Export** for Events
+- ✅ **iCal Export** for Opportunities
+- ✅ **Volunteer Schedule** Export
+- ✅ **NGO Events** Calendar Export
+- ✅ **Webcal URL** Generation
+- ✅ **Calendar Feed** Tokens
+- ✅ **Event Reminders** in iCal
+- ✅ **RFC 5545** Compliant Format
+- ✅ **Google Calendar** Compatible
+- ✅ **Apple Calendar** Compatible
+- ✅ **Outlook** Compatible
+
 ## 🔮 Planned Features (Future Enhancements)
 
 - ⏳ OAuth Authentication (Google, Facebook, GitHub)
-- ⏳ Two-Factor Authentication (2FA)
 - ⏳ SMS Notifications (Twilio)
-- ⏳ Calendar Integration (Google Calendar, iCal)
-- ⏳ Team/Group Volunteering
-- ⏳ Certificate Generation (PDF)
 - ⏳ Donation Integration (Stripe)
-- ⏳ Webhook System for Integrations
 - ⏳ Mobile Apps (iOS & Android)
 - ⏳ Multi-Language Support (i18n)
 - ⏳ Advanced Search with Elasticsearch
 - ⏳ Video Call Integration
-- ⏳ Event Management System
 - ⏳ Forum/Community Features
-- ⏳ AI-Powered Matching
+- ⏳ AI-Powered Matching Improvements
 - ⏳ Volunteer Skill Verification
 - ⏳ Impact Measurement Tools
 - ⏳ Corporate Volunteering Portal
 
 ---
 
-**Total Features Implemented: 200+**
+**Total Features Implemented: 270+**
 
 This platform is production-ready and can handle thousands of concurrent users with proper infrastructure scaling.

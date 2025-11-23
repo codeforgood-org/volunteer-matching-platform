@@ -17,6 +17,10 @@ defmodule VolunteerMatch.Accounts.User do
     field :confirmed_at, :utc_datetime
     field :last_sign_in_at, :utc_datetime
     field :is_active, :boolean, default: true
+    field :two_factor_enabled, :boolean, default: false
+    field :two_factor_secret, :string
+    field :two_factor_backup_codes, {:array, :string}, default: []
+    field :two_factor_enabled_at, :utc_datetime
 
     has_one :volunteer, VolunteerMatch.Volunteers.Volunteer
     has_one :ngo, VolunteerMatch.NGOs.NGO

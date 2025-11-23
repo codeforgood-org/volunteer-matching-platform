@@ -10,8 +10,13 @@ A comprehensive, production-ready volunteer matching platform that connects volu
 - **Real-time Notifications**: Get instant updates on opportunity matches
 - **Application Tracking**: Track all your volunteer applications in one place
 - **Reviews & Ratings**: Leave feedback for NGOs and build your volunteer reputation
-- **Calendar Integration**: Sync volunteer opportunities with your calendar
+- **Calendar Integration**: Export your volunteer schedule to Google Calendar, Apple Calendar, Outlook (iCal)
 - **Location-based Search**: Find opportunities near you with map visualization
+- **Two-Factor Authentication**: Secure your account with TOTP-based 2FA
+- **Team Volunteering**: Create or join volunteer teams with friends, family, or colleagues
+- **Advanced Search**: Find opportunities with powerful full-text search and filters
+- **Certificates**: Get beautiful certificates for completed volunteer work
+- **Gamification**: Earn badges, unlock achievements, and climb leaderboards
 
 ### For NGOs
 - **Opportunity Posting**: Create and manage volunteer opportunities
@@ -20,7 +25,11 @@ A comprehensive, production-ready volunteer matching platform that connects volu
 - **Verification System**: Get verified to build trust with volunteers
 - **Analytics Dashboard**: Track volunteer engagement and impact metrics
 - **Communication Tools**: Message volunteers directly through the platform
-- **Event Management**: Schedule and coordinate volunteer events
+- **Event Management**: Create fundraisers, workshops, training sessions, and community events
+- **Webhook Integrations**: Connect with external systems via secure webhooks
+- **Team Applications**: Accept applications from volunteer teams
+- **Certificate Issuance**: Automatically generate certificates for volunteers
+- **Calendar Exports**: Share your event calendar via iCal feeds
 
 ### Platform Features
 - **Geospatial Matching**: Advanced PostGIS-powered location matching
@@ -29,8 +38,58 @@ A comprehensive, production-ready volunteer matching platform that connects volu
 - **Admin Dashboard**: Comprehensive admin tools for platform management
 - **Multi-language Support**: Ready for internationalization
 - **Mobile Responsive**: Works seamlessly on all devices
-- **API Access**: RESTful API for third-party integrations
+- **GraphQL API**: Full GraphQL API with subscriptions alongside REST
 - **Security**: JWT authentication, role-based access control, rate limiting
+
+## 🎉 Phase 2 Advanced Features (NEW!)
+
+### 🔐 Two-Factor Authentication
+- TOTP-based 2FA with QR codes for authenticator apps
+- 10 backup codes per user for account recovery
+- Compatible with Google Authenticator, Authy, 1Password, etc.
+
+### 🔍 Advanced Full-Text Search
+- PostgreSQL pg_trgm trigram similarity matching
+- Full-text search with relevance ranking
+- Search across opportunities, NGOs, and volunteers
+- Autocomplete suggestions
+- Fuzzy matching for typos
+
+### 👥 Team/Group Volunteering
+- Create volunteer teams (Volunteer, Corporate, Student, Family)
+- Team leaders and co-leaders
+- Team invitations and member management
+- Apply to opportunities as a team
+- Team statistics and analytics
+
+### 📅 Event Management System
+- Create events (fundraisers, workshops, training, meetings)
+- Virtual and physical events
+- Event registration with capacity limits
+- Waitlist management
+- Attendance tracking
+- Event search by location
+
+### 🔗 Webhook System
+- Integrate with external systems
+- 10+ event types (application.*, opportunity.*, event.*)
+- HMAC-SHA256 signature verification
+- Automatic retries with exponential backoff
+- Delivery tracking and analytics
+
+### 🏆 Certificate Generation
+- Beautiful HTML certificates for completed work
+- Single opportunity and summary certificates
+- Professional design with organization branding
+- Unique certificate IDs for verification
+- PDF export ready
+
+### 📆 Calendar Integration
+- Export events to iCal format
+- Export volunteer schedule
+- Compatible with Google Calendar, Apple Calendar, Outlook
+- Webcal URL for calendar subscriptions
+- Event reminders
 
 ## 🏗️ Architecture
 
